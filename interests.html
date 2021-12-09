@@ -14,6 +14,10 @@
                 padding: 0px;
                 
             }
+            #table{
+                border: solid 1px black;
+                border-collapse: collapse;
+            }
             
             
             ul.navbar li{
@@ -26,6 +30,12 @@
                 display: inline;
               
                 background-color: cornflowerblue;  
+            }
+            #figure{
+                font-style:italic;
+            }
+            #title{
+                font-weight: bold;
             }
         </style>
         
@@ -40,7 +50,7 @@
             <li><a href="./interests.html">Interests</a></li>
         </ul>
 
-        <table>
+        <table id="table">
             <thead>
                 <tr> 
                     <th>Interest</th><th>Definition</th>
@@ -48,6 +58,10 @@
             </thead>
             <tbody>
                 <tr><td>Reading</td><td><p id="title">Reading</p><p id="figure">(noun)</p><br><p>The action or skill of reading printed matter silently or aloud</p></td></tr>
+                <tr><td>Writing</td><td><p id="title">Writing</p><p id="figure">(noun)</p><br><p>The activity or skill or making coherent words on paper and composing text. </p></td></tr>
+                <tr><td>Programming</td><td><p id="title">Programming</p><p id="figure">(noun)</p><br><p>The process or activity of writing computer programs</p></td></tr>
+                <tr><td colspan="2">Watching Youtube</td><td><p id="title">Watching</p><p id="figure">(verb present participle)</p><br><p>Look at or observe attentively over a period of time.  </p></td></tr>
+                <tr><td><p id="title">Youtube</p><p id="figure">(company)</p><br><p>An American online video sharing service where users can watch, like, share, comment, and upload their own videos.</p></td></tr>
             </tbody>
         </table>
 
