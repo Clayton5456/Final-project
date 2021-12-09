@@ -27,11 +27,34 @@
               
                 background-color: cornflowerblue;  
             }
+            #left{
+                float: left;
+            }
+            #right{
+                float: left;
+            }
+            #outer::after{
+                display: table;
+                content: "";
+                clear: both;
+            }
         </style>
         
     </head>
 
     <body>
+        <div id="outer">
+            <img src="./headshot.jpg" alt="me">
+            <div id="left">
+
+            </div>
+            <div id="right">
+
+            </div>
+        </div>
+
+
+
         <ul class="navbar">
             <li><a href="./index.html">Home</a></li>
             <li><a href="./education.html">Education</a></li>
